@@ -1,0 +1,20 @@
+
+# intellij
+/src/intellij*/*.iml
+/src/intellij*/*.ipr
+/src/intellij*/*.iws
+**/.cache
+/.idea
+/.settings
+
+# metals
+.metals
+.bloop
+project/**/metals.sbt
+
+.bsp
+.history
+
+# JARs aren't checked in, they are fetched by sbt
+
+**/target
